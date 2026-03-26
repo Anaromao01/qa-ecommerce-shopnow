@@ -1,51 +1,51 @@
-# BUG-001 — Checkout retorna para Home ao finalizar pedido
+# BUG-001 — Checkout redirects to Home when placing an order
 
-## Ambiente
+## Environment
 - App: ShopNow  
-- Versão: 2.3.1  
-- Dispositivo: Android 14  
-- Usuário: Logado  
+- Version: 2.3.1  
+- Device: Android 14  
+- User: Logged in  
 
 ---
 
-## Pré-condição
-Usuário deve estar logado e com produto no carrinho.
+## Precondition
+User must be logged in and have at least one product in the cart.
 
 ---
 
-## Passos para reproduzir
+## Steps to Reproduce
 
-1. Estar logado no aplicativo  
-2. Adicionar um produto ao carrinho  
-3. Inserir endereço válido  
-4. Inserir forma de pagamento válida  
-5. Clicar em **Finalizar Pedido**
-
----
-
-## Resultado esperado
-
-O sistema deve concluir o pedido e exibir a mensagem:
-
-✅ “Pedido concluído com sucesso” + comprovante.
+1. Be logged into the application  
+2. Add a product to the cart  
+3. Enter a valid address  
+4. Enter a valid payment method  
+5. Click on **Place Order**
 
 ---
 
-## Resultado atual
+## Expected Result
 
-Ao clicar em **Finalizar Pedido**, o app retorna para a Home sem concluir o pedido.
+The system should successfully complete the order and display the message:
+
+✅ “Order placed successfully” + receipt.
 
 ---
 
-## Severidade / Prioridade
+## Actual Result
+
+When clicking on **Place Order**, the app redirects to the Home screen without completing the order.
+
+---
+
+## Severity / Priority
 
 - Severity: High  
 - Priority: High  
 
-**Justificativa:** Bug bloqueia o fluxo principal de compra e pode gerar abandono de carrinho.
+**Justification:** This bug blocks the main purchase flow and may lead to cart abandonment.
 
 ---
 
-## Evidência
+## Evidence
 
-Projeto fictício (simulação para portfólio).
+Fictional project (simulation for portfolio purposes).

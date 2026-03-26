@@ -1,22 +1,22 @@
-# TC002 — Login com senha inválida
+# TC002 — Login with invalid password
 
-## Pré-condição
-- Usuário cadastrado  
-- Usuário deslogado  
-
----
-
-## Passos
-
-1. Acessar a tela de Login  
-2. Inserir email válido  
-3. Inserir senha inválida  
-4. Clicar em **Entrar**
+## Precondition
+- User is registered in the system  
+- User is logged out  
 
 ---
 
-## Resultado esperado
+## Steps
 
-O sistema deve impedir o login e exibir:
+1. Navigate to the Login screen  
+2. Enter a valid email  
+3. Enter an invalid password  
+4. Click on **Login**
 
-❌ “Senha inválida”
+---
+
+## Expected Result
+
+The system should prevent the login and display:
+
+❌ “Invalid password”

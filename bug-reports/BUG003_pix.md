@@ -1,55 +1,55 @@
-# BUG-003 — Loading infinito ao selecionar pagamento via PIX
+# BUG-003 — Infinite loading when selecting PIX payment
 
-## Ambiente
+## Environment
 - App: ShopNow  
-- Versão: 2.3.1  
-- Dispositivo: Android 14  
-- Usuário: Logado  
+- Version: 2.3.1  
+- Device: Android 14  
+- User: Logged in  
 
 ---
 
-## Pré-condição
+## Precondition
 
-- Usuário logado  
-- Usuário sem cartão cadastrado  
-- Produto adicionado ao carrinho  
-
----
-
-## Passos para reproduzir
-
-1. Acessar o app com perfil logado  
-2. Adicionar um produto ao carrinho  
-3. Inserir endereço válido  
-4. Selecionar pagamento via **PIX**  
-5. Confirmar a forma de pagamento
+- User is logged in  
+- User has no saved credit card  
+- Product added to the cart  
 
 ---
 
-## Resultado esperado
+## Steps to Reproduce
 
-O app deve exibir:
-
-✅ QR Code PIX  
-✅ Código para copiar e pagar
-
----
-
-## Resultado atual
-
-O app permanece em loading infinito, impedindo o pagamento.
+1. Open the app with a logged-in user  
+2. Add a product to the cart  
+3. Enter a valid address  
+4. Select **PIX** as the payment method  
+5. Confirm the payment method  
 
 ---
 
-## Severidade / Prioridade
+## Expected Result
+
+The app should display:
+
+✅ PIX QR Code  
+✅ Copy-and-paste payment code  
+
+---
+
+## Actual Result
+
+The app remains stuck in an infinite loading state, preventing the payment from being completed.
+
+---
+
+## Severity / Priority
 
 - Severity: Critical  
-- Priority: High (P0)
+- Priority: P0  
 
-**Justificativa:** Bloqueia pagamento via PIX, causando perda de receita e abandono de compra.
+**Justification:** Blocks PIX payment, causing revenue loss and cart abandonment.
 
 ---
 
-## Evidência
+## Evidence
 
-Projeto fictício (simulação para portfólio).
+Fictional project (simulation for portfolio purposes).

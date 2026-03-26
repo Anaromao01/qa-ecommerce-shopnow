@@ -1,19 +1,19 @@
-# TC003 — Adicionar produto ao carrinho
+# TC003 — Add product to cart
 
-## Pré-condição
-- Produto disponível em estoque  
-
----
-
-## Passos
-
-1. Selecionar uma categoria de produto  
-2. Escolher um produto disponível  
-3. Clicar em **Adicionar ao carrinho**  
-4. Verificar o carrinho
+## Precondition
+- Product is available in stock  
 
 ---
 
-## Resultado esperado
+## Steps
 
-O produto deve aparecer corretamente no carrinho.
+1. Select a product category  
+2. Choose an available product  
+3. Click on **Add to cart**  
+4. Check the cart  
+
+---
+
+## Expected Result
+
+The product should be successfully added and displayed correctly in the cart.

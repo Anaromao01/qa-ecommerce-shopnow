@@ -1,20 +1,20 @@
-# TC001 — Login com credenciais válidas
+# TC001 — Login with valid credentials
 
-## Pré-condição
-- Usuário cadastrado no sistema  
-- Usuário deslogado  
-
----
-
-## Passos
-
-1. Acessar a tela de Login  
-2. Inserir email válido  
-3. Inserir senha válida  
-4. Clicar em **Entrar**
+## Precondition
+- User is registered in the system  
+- User is logged out  
 
 ---
 
-## Resultado esperado
+## Steps
 
-O sistema deve autenticar o usuário e redirecionar para a Home com sessão iniciada.
+1. Navigate to the Login screen  
+2. Enter a valid email  
+3. Enter a valid password  
+4. Click on **Login**
+
+---
+
+## Expected Result
+
+The system should authenticate the user and redirect to the Home screen with an active session.

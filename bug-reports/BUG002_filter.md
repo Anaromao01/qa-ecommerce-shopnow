@@ -1,47 +1,47 @@
-# BUG-002 — Filtro de preço desaparece ao clicar em “Próxima página”
+# BUG-002 — Price filter disappears when clicking “Next page”
 
-## Ambiente
+## Environment
 - App: ShopNow  
-- Versão: 2.3.1  
-- Dispositivo: Android 14  
-- Usuário: Deslogado  
+- Version: 2.3.1  
+- Device: Android 14  
+- User: Logged out  
 
 ---
 
-## Pré-condição
-Filtro de preço ativado na listagem de produtos.
+## Precondition
+Price filter is applied on the product listing page.
 
 ---
 
-## Passos para reproduzir
+## Steps to Reproduce
 
-1. Aplicar filtro de preço (ex: R$100–R$200)  
-2. Confirmar que o filtro está ativo  
-3. Clicar em **Próxima página**
-
----
-
-## Resultado esperado
-
-O filtro deve permanecer ativo após mudar de página.
+1. Apply a price filter (e.g., $100–$200)  
+2. Confirm that the filter is active  
+3. Click on **Next page**
 
 ---
 
-## Resultado atual
+## Expected Result
 
-O filtro é reiniciado e todos os produtos voltam a ser exibidos.
+The filter should remain active after navigating to the next page.
 
 ---
 
-## Severidade / Prioridade
+## Actual Result
+
+The filter is reset and all products are displayed again.
+
+---
+
+## Severity / Priority
 
 - Severity: Medium  
 - Priority: High  
 
-**Justificativa:** Não bloqueia o app, mas prejudica a experiência e pode gerar abandono de compra.
+**Justification:** Does not block the application, but negatively impacts user experience and may lead to cart abandonment.
 
 ---
 
-## Evidência
+## Evidence
 
-Projeto fictício (simulação para portfólio).
+Fictional project (simulation for portfolio purposes).

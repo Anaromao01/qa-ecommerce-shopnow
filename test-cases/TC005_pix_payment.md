@@ -1,26 +1,25 @@
-# TC005 — Finalizar pedido via PIX com sucesso
+# TC005 — Complete order via PIX successfully
 
-## Pré-condição
-- Usuário cadastrado  
-- Usuário logado  
-- Produto no carrinho  
-
----
-
-## Passos
-
-1. Efetuar login no app  
-2. Adicionar produto ao carrinho  
-3. Prosseguir para checkout  
-4. Inserir endereço válido  
-5. Selecionar pagamento via PIX  
-6. Confirmar pagamento  
-7. Validar confirmação
+## Precondition
+- User is registered  
+- User is logged in  
+- Product is in the cart  
 
 ---
 
-## Resultado esperado
+## Steps
 
-Após confirmação do PIX, o sistema deve exibir:
+1. Log in to the app  
+2. Add a product to the cart  
+3. Proceed to checkout  
+4. Enter a valid address  
+5. Select **PIX** as the payment method  
+6. Confirm the payment  
 
-✅ “Pagamento confirmado”
+---
+
+## Expected Result
+
+After confirming the PIX payment, the system should display:
+
+✅ “Payment confirmed”

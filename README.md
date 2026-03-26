@@ -1,119 +1,120 @@
 # qa-ecommerce-shopnow
-# 🧪 Projeto QA — Ecommerce ShopNow (Fictício)
 
-Este repositório contém um **projeto fictício de testes de software**, criado com fins de **aprendizado, prática e portfólio profissional em QA**.
+# 🧪 QA Project — Ecommerce ShopNow (Fictional)
 
-O objetivo é demonstrar habilidades em:
-- Criação de casos de teste
-- Escrita de bug reports profissionais
-- Análise de severidade e prioridade
-- Visão de impacto no usuário e no negócio
-- Organização e documentação de testes
+This repository contains a **fictional software testing project**, created for **learning, practice, and QA portfolio purposes**.
 
-> ⚠️ **Observação:**  
-> Este projeto é fictício. O aplicativo “ShopNow” não é real e foi utilizado apenas para simular cenários comuns de um ecommerce.
+The goal is to demonstrate skills in:
+- Test case creation  
+- Professional bug report writing  
+- Severity and priority analysis  
+- User and business impact assessment  
+- Test organization and documentation  
 
----
-
-## 📦 Escopo do Projeto
-
-Aplicativo mobile de ecommerce com as seguintes funcionalidades simuladas:
-
-- Login de usuário
-- Listagem de produtos
-- Filtro por preço
-- Carrinho de compras
-- Checkout
-- Pagamento via PIX
+> ⚠️ **Note:**  
+> This project is fictional. The “ShopNow” application is not real and was created only to simulate common ecommerce scenarios.
 
 ---
 
-## ✅ Funcionalidades Testadas
+## 📦 Project Scope
 
-- Login
-- Carrinho
-- Filtro de produtos
-- Checkout e pagamento
+Mobile ecommerce application with the following simulated features:
 
----
-
-## 🐞 Bugs Reportados
-
-### 🔴 BUG001 — Checkout
-**Título:** Ao clicar em “Finalizar Pedido”, o app retorna para Home  
-**Severidade:** High  
-**Prioridade:** High  
-
-**Descrição:**  
-Após concluir todas as etapas do checkout, o usuário não consegue finalizar o pedido, sendo redirecionado para a tela inicial.
+- User login  
+- Product listing  
+- Price filtering  
+- Shopping cart  
+- Checkout  
+- PIX payment  
 
 ---
 
-### 🟠 BUG002 — Filtro de preço
-**Título:** Filtro de preço desaparece ao clicar em “Próxima página”  
-**Severidade:** Medium  
-**Prioridade:** High  
+## ✅ Tested Features
 
-**Descrição:**  
-Ao navegar entre páginas, o filtro aplicado é perdido, exibindo produtos fora do critério selecionado.
-
----
-
-### 🔴 BUG003 — Pagamento PIX (CRÍTICO)
-**Título:** Loading infinito ao selecionar pagamento via PIX  
-**Severidade:** Critical  
-**Prioridade:** P0  
-
-**Descrição:**  
-Após selecionar PIX como forma de pagamento, o sistema permanece em loading infinito, bloqueando a finalização da compra.
-
-**Impacto:**  
-- Bloqueio de pagamento  
-- Risco financeiro para o negócio  
-- Abandono de carrinho  
+- Login  
+- Cart  
+- Product filtering  
+- Checkout and payment  
 
 ---
 
-## 🧪 Casos de Teste
+## 🐞 Reported Bugs
 
-| ID | Título |
-|----|-------|
-| TC001 | Login com credenciais válidas |
-| TC002 | Login com senha inválida |
-| TC003 | Adicionar produto ao carrinho |
-| TC004 | Filtrar produtos por preço |
-| TC005 | Finalizar pedido via PIX |
+### 🔴 BUG001 — Checkout  
+**Title:** When clicking “Place Order”, the app returns to Home  
+**Severity:** High  
+**Priority:** High  
 
-Os casos de teste estão escritos seguindo boas práticas de QA:
-- Pré-condição
-- Passos
-- Resultado esperado
+**Description:**  
+After completing all checkout steps, the user is unable to place the order and is redirected to the home screen.
 
 ---
 
-## 📊 Resumo QA
+### 🟠 BUG002 — Price Filter  
+**Title:** Price filter disappears when clicking “Next page”  
+**Severity:** Medium  
+**Priority:** High  
 
-- Funcionalidades críticas testadas com foco em experiência do usuário
-- Bug crítico identificado no fluxo de checkout via PIX
-- Sistema **não recomendado para release** devido a risco financeiro
-
-### Status da Release
-❌ **Não recomendada**
-
----
-
-## 📌 Recomendações
-
-- Priorizar correção do BUG003 (PIX) — prioridade P0
-- Implementar timeout e fallback no fluxo de pagamento
-- Garantir persistência de filtros entre páginas
-- Melhorar logs e mensagens de erro no checkout
+**Description:**  
+When navigating between pages, the applied filter is lost, displaying products outside the selected criteria.
 
 ---
 
-## 👩‍💻 Autora
+### 🔴 BUG003 — PIX Payment (CRITICAL)  
+**Title:** Infinite loading when selecting PIX payment  
+**Severity:** Critical  
+**Priority:** P0  
+
+**Description:**  
+After selecting PIX as the payment method, the system remains stuck in an infinite loading state, blocking the purchase completion.
+
+**Impact:**  
+- Payment blockage  
+- Financial risk to the business  
+- Cart abandonment  
+
+---
+
+## 🧪 Test Cases
+
+| ID   | Title                          |
+|------|--------------------------------|
+| TC001 | Login with valid credentials  |
+| TC002 | Login with invalid password   |
+| TC003 | Add product to cart           |
+| TC004 | Filter products by price      |
+| TC005 | Complete order via PIX        |
+
+Test cases are written following QA best practices:
+- Precondition  
+- Steps  
+- Expected result  
+
+---
+
+## 📊 QA Summary
+
+- Critical features tested with focus on user experience  
+- Critical bug identified in PIX checkout flow  
+- System **not recommended for release** due to financial risk  
+
+### Release Status  
+❌ **Not recommended**
+
+---
+
+## 📌 Recommendations
+
+- Prioritize fixing BUG003 (PIX) — P0 priority  
+- Implement timeout and fallback in the payment flow  
+- Ensure filter persistence between pages  
+- Improve logs and error messages in checkout  
+
+---
+
+## 👩‍💻 Author
 
 **Ana Claudia Romão**  
-QA em transição de carreira | Testes Manuais | Qualidade de Software  
+QA Career Transition | Manual Testing | Software Quality  
 
 🔗 GitHub: https://github.com/Anaromao01

@@ -1,21 +1,21 @@
-# TC004 — Aplicar filtro de preço
+# TC004 — Apply price filter
 
-## Pré-condição
-- Usuário na tela de listagem  
-- Pelo menos 5 produtos visíveis  
-
----
-
-## Passos
-
-1. Selecionar uma categoria  
-2. Clicar em **Filtro**  
-3. Selecionar filtro por preço  
-4. Aplicar faixa R$100–R$200  
-5. Confirmar listagem filtrada
+## Precondition
+- User is on the product listing page  
+- At least 5 products are visible  
 
 ---
 
-## Resultado esperado
+## Steps
 
-Apenas produtos entre R$100 e R$200 devem ser exibidos.
+1. Select a category  
+2. Click on **Filter**  
+3. Select price filter  
+4. Apply range 100–200  
+5. Confirm filtered listing  
+
+---
+
+## Expected Result
+
+Only products within the selected price range (100–200) should be displayed.
